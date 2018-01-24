@@ -9,5 +9,5 @@
 
 
     <!--listActivity-->
-    <dimen name="app_bar_height">116dp</dimen>
+    <dimen name="app_bar_height">112dp</dimen>
 </resources>

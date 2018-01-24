@@ -45,19 +45,7 @@ public class SelectionBuilder {
     /**
      * Reset any internal state, allowing this builder to be recycled.
      */
-    public SelectionBuilder reset() {
-        mTable = null;
-		if (mProjectionMap != null) {
-			mProjectionMap.clear();
-		}
-		if (mSelection != null) {
-			mSelection.setLength(0);
-		}
-		if (mSelectionArgs != null) {
-			mSelectionArgs.clear();
-		}
-        return this;
-    }
+
 
     /**
      * Append the given selection clause to the internal state. Each clause is
